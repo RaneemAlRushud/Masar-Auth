@@ -14,6 +14,10 @@
 		F5C30B432881BA790004F93E /* Masar_AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B422881BA790004F93E /* Masar_AuthTests.swift */; };
 		F5C30B4D2881BA790004F93E /* Masar_AuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B4C2881BA790004F93E /* Masar_AuthUITests.swift */; };
 		F5C30B4F2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B4E2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift */; };
+		F5C30B5F2881BAA30004F93E /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B5E2881BAA30004F93E /* TestView.swift */; };
+		F5C30B612881BAB20004F93E /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B602881BAB20004F93E /* SigninView.swift */; };
+		F5C30B632881BAE80004F93E /* WebServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B622881BAE80004F93E /* WebServiceController.swift */; };
+		F5C30B652881BB030004F93E /* SignInOutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B642881BB030004F93E /* SignInOutController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		F5C30B482881BA790004F93E /* Masar-AuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masar-AuthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C30B4C2881BA790004F93E /* Masar_AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masar_AuthUITests.swift; sourceTree = "<group>"; };
 		F5C30B4E2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masar_AuthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5C30B5E2881BAA30004F93E /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		F5C30B602881BAB20004F93E /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		F5C30B622881BAE80004F93E /* WebServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceController.swift; sourceTree = "<group>"; };
+		F5C30B642881BB030004F93E /* SignInOutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOutController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		F5C30B302881BA770004F93E /* Masar-Auth */ = {
 			isa = PBXGroup;
 			children = (
+				F5C30B5D2881BA8E0004F93E /* View */,
+				F5C30B5C2881BA850004F93E /* Controller */,
+				F5C30B5B2881BA800004F93E /* Model */,
 				F5C30B312881BA770004F93E /* Masar_AuthApp.swift */,
 				F5C30B332881BA770004F93E /* ContentView.swift */,
 				F5C30B352881BA790004F93E /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				F5C30B4E2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift */,
 			);
 			path = "Masar-AuthUITests";
+			sourceTree = "<group>";
+		};
+		F5C30B5B2881BA800004F93E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F5C30B5C2881BA850004F93E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30B622881BAE80004F93E /* WebServiceController.swift */,
+				F5C30B642881BB030004F93E /* SignInOutController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F5C30B5D2881BA8E0004F93E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30B5E2881BAA30004F93E /* TestView.swift */,
+				F5C30B602881BAB20004F93E /* SigninView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C30B5F2881BAA30004F93E /* TestView.swift in Sources */,
+				F5C30B632881BAE80004F93E /* WebServiceController.swift in Sources */,
 				F5C30B342881BA770004F93E /* ContentView.swift in Sources */,
+				F5C30B612881BAB20004F93E /* SigninView.swift in Sources */,
+				F5C30B652881BB030004F93E /* SignInOutController.swift in Sources */,
 				F5C30B322881BA770004F93E /* Masar_AuthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
