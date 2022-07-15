@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5C30B322881BA770004F93E /* Masar_AuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B312881BA770004F93E /* Masar_AuthApp.swift */; };
+		F5C30B342881BA770004F93E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B332881BA770004F93E /* ContentView.swift */; };
+		F5C30B362881BA790004F93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C30B352881BA790004F93E /* Assets.xcassets */; };
+		F5C30B392881BA790004F93E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C30B382881BA790004F93E /* Preview Assets.xcassets */; };
+		F5C30B432881BA790004F93E /* Masar_AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B422881BA790004F93E /* Masar_AuthTests.swift */; };
+		F5C30B4D2881BA790004F93E /* Masar_AuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B4C2881BA790004F93E /* Masar_AuthUITests.swift */; };
+		F5C30B4F2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B4E2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5C30B3F2881BA790004F93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C30B262881BA770004F93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C30B2D2881BA770004F93E;
+			remoteInfo = "Masar-Auth";
+		};
+		F5C30B492881BA790004F93E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C30B262881BA770004F93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C30B2D2881BA770004F93E;
+			remoteInfo = "Masar-Auth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5C30B2E2881BA770004F93E /* Masar-Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masar-Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C30B312881BA770004F93E /* Masar_AuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masar_AuthApp.swift; sourceTree = "<group>"; };
+		F5C30B332881BA770004F93E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5C30B352881BA790004F93E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C30B382881BA790004F93E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5C30B3E2881BA790004F93E /* Masar-AuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masar-AuthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C30B422881BA790004F93E /* Masar_AuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masar_AuthTests.swift; sourceTree = "<group>"; };
+		F5C30B482881BA790004F93E /* Masar-AuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masar-AuthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C30B4C2881BA790004F93E /* Masar_AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masar_AuthUITests.swift; sourceTree = "<group>"; };
+		F5C30B4E2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masar_AuthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C30B2B2881BA770004F93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C30B3B2881BA790004F93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C30B452881BA790004F93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C30B252881BA770004F93E = {
+			isa = PBXGroup;
+			children = (
+				F5C30B302881BA770004F93E /* Masar-Auth */,
+				F5C30B412881BA790004F93E /* Masar-AuthTests */,
+				F5C30B4B2881BA790004F93E /* Masar-AuthUITests */,
+				F5C30B2F2881BA770004F93E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C30B2F2881BA770004F93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30B2E2881BA770004F93E /* Masar-Auth.app */,
+				F5C30B3E2881BA790004F93E /* Masar-AuthTests.xctest */,
+				F5C30B482881BA790004F93E /* Masar-AuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C30B302881BA770004F93E /* Masar-Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30B312881BA770004F93E /* Masar_AuthApp.swift */,
+				F5C30B332881BA770004F93E /* ContentView.swift */,
+				F5C30B352881BA790004F93E /* Assets.xcassets */,
+				F5C30B372881BA790004F93E /* Preview Content */,
+			);
+			path = "Masar-Auth";
+			sourceTree = "<group>";
+		};
+		F5C30B372881BA790004F93E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30B382881BA790004F93E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5C30B412881BA790004F93E /* Masar-AuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30B422881BA790004F93E /* Masar_AuthTests.swift */,
+			);
+			path = "Masar-AuthTests";
+			sourceTree = "<group>";
+		};
+		F5C30B4B2881BA790004F93E /* Masar-AuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5C30B4C2881BA790004F93E /* Masar_AuthUITests.swift */,
+				F5C30B4E2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift */,
+			);
+			path = "Masar-AuthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C30B2D2881BA770004F93E /* Masar-Auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C30B522881BA790004F93E /* Build configuration list for PBXNativeTarget "Masar-Auth" */;
+			buildPhases = (
+				F5C30B2A2881BA770004F93E /* Sources */,
+				F5C30B2B2881BA770004F93E /* Frameworks */,
+				F5C30B2C2881BA770004F93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Masar-Auth";
+			productName = "Masar-Auth";
+			productReference = F5C30B2E2881BA770004F93E /* Masar-Auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C30B3D2881BA790004F93E /* Masar-AuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C30B552881BA790004F93E /* Build configuration list for PBXNativeTarget "Masar-AuthTests" */;
+			buildPhases = (
+				F5C30B3A2881BA790004F93E /* Sources */,
+				F5C30B3B2881BA790004F93E /* Frameworks */,
+				F5C30B3C2881BA790004F93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C30B402881BA790004F93E /* PBXTargetDependency */,
+			);
+			name = "Masar-AuthTests";
+			productName = "Masar-AuthTests";
+			productReference = F5C30B3E2881BA790004F93E /* Masar-AuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5C30B472881BA790004F93E /* Masar-AuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C30B582881BA790004F93E /* Build configuration list for PBXNativeTarget "Masar-AuthUITests" */;
+			buildPhases = (
+				F5C30B442881BA790004F93E /* Sources */,
+				F5C30B452881BA790004F93E /* Frameworks */,
+				F5C30B462881BA790004F93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C30B4A2881BA790004F93E /* PBXTargetDependency */,
+			);
+			name = "Masar-AuthUITests";
+			productName = "Masar-AuthUITests";
+			productReference = F5C30B482881BA790004F93E /* Masar-AuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C30B262881BA770004F93E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F5C30B2D2881BA770004F93E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					F5C30B3D2881BA790004F93E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F5C30B2D2881BA770004F93E;
+					};
+					F5C30B472881BA790004F93E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = F5C30B2D2881BA770004F93E;
+					};
+				};
+			};
+			buildConfigurationList = F5C30B292881BA770004F93E /* Build configuration list for PBXProject "Masar-Auth" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C30B252881BA770004F93E;
+			productRefGroup = F5C30B2F2881BA770004F93E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C30B2D2881BA770004F93E /* Masar-Auth */,
+				F5C30B3D2881BA790004F93E /* Masar-AuthTests */,
+				F5C30B472881BA790004F93E /* Masar-AuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C30B2C2881BA770004F93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C30B392881BA790004F93E /* Preview Assets.xcassets in Resources */,
+				F5C30B362881BA790004F93E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C30B3C2881BA790004F93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C30B462881BA790004F93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C30B2A2881BA770004F93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C30B342881BA770004F93E /* ContentView.swift in Sources */,
+				F5C30B322881BA770004F93E /* Masar_AuthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C30B3A2881BA790004F93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C30B432881BA790004F93E /* Masar_AuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C30B442881BA790004F93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C30B4D2881BA790004F93E /* Masar_AuthUITests.swift in Sources */,
+				F5C30B4F2881BA790004F93E /* Masar_AuthUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C30B402881BA790004F93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C30B2D2881BA770004F93E /* Masar-Auth */;
+			targetProxy = F5C30B3F2881BA790004F93E /* PBXContainerItemProxy */;
+		};
+		F5C30B4A2881BA790004F93E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C30B2D2881BA770004F93E /* Masar-Auth */;
+			targetProxy = F5C30B492881BA790004F93E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5C30B502881BA790004F93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C30B512881BA790004F93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C30B532881BA790004F93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Masar-Auth/Preview Content\"";
+				DEVELOPMENT_TEAM = 4R32MLPWCK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayaar.Masar-Auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5C30B542881BA790004F93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Masar-Auth/Preview Content\"";
+				DEVELOPMENT_TEAM = 4R32MLPWCK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayaar.Masar-Auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5C30B562881BA790004F93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R32MLPWCK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayaar.Masar-AuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masar-Auth.app/Masar-Auth";
+			};
+			name = Debug;
+		};
+		F5C30B572881BA790004F93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R32MLPWCK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayaar.Masar-AuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masar-Auth.app/Masar-Auth";
+			};
+			name = Release;
+		};
+		F5C30B592881BA790004F93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R32MLPWCK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayaar.Masar-AuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Masar-Auth";
+			};
+			name = Debug;
+		};
+		F5C30B5A2881BA790004F93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4R32MLPWCK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Ayaar.Masar-AuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Masar-Auth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C30B292881BA770004F93E /* Build configuration list for PBXProject "Masar-Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C30B502881BA790004F93E /* Debug */,
+				F5C30B512881BA790004F93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C30B522881BA790004F93E /* Build configuration list for PBXNativeTarget "Masar-Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C30B532881BA790004F93E /* Debug */,
+				F5C30B542881BA790004F93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C30B552881BA790004F93E /* Build configuration list for PBXNativeTarget "Masar-AuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C30B562881BA790004F93E /* Debug */,
+				F5C30B572881BA790004F93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C30B582881BA790004F93E /* Build configuration list for PBXNativeTarget "Masar-AuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C30B592881BA790004F93E /* Debug */,
+				F5C30B5A2881BA790004F93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C30B262881BA770004F93E /* Project object */;
+}
