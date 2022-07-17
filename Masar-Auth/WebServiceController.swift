@@ -72,13 +72,24 @@ class WebService {
             return
         }
         
-        let body = LoginRequestBody(email: email, password: password)
+//        let body = LoginRequestBody(email: email, password: password)
         var request = URLRequest(url:url)
         request.httpMethod = "POST"
         request.addValue("application/json",forHTTPHeaderField:"Content-Type")
         
         //Encode; Since it's(LoginRequestBody)codable [POST method]
-        request.httpBody = try?JSONEncoder().encode(body)
+        // here you encoded the body as a swift object!
+        // it should be a json object.
+        let dic : [String : Any] = [
+            
+            "emailInput" : email,
+            "passwordInput" : password
+            
+        ]
+        
+        let jsonData = try? JSONSerialization.data(withJSONObject: dic, options: .prettyPrinted)
+        
+        request.httpBody = jsonData
         
         
         URLSession.shared.dataTask(with: request){ (data, response, error) in

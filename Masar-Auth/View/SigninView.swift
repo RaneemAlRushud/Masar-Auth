@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct SigninView: View {
-    @StateObject private var signinControllerObj = SignInOutModel()
+    @ObservedObject private var signinControllerObj = SignInOutModel()
+    @ObservedObject private var signoutControllerObj = SignInOutModel()
     @State var showTabBar: Bool = false
+    
+    @State var loginEmail : String = ""
+    @State var loginPassword : String = ""
     
     var body: some View {
         
-       
+        NavigationView {
         GeometryReader{_ in
     
             VStack(alignment: .center){
@@ -25,7 +29,7 @@ struct SigninView: View {
               
                 //TO NAVIGATE TO SIGN UP PAGE
 //NavigationLink(destination: TabBar(), isActive: $showTabBar, label: {EmptyView()} )
-                NavigationLink(destination: TestView(), isActive: $showTabBar, label: {EmptyView()} )
+                NavigationLink(destination: TabBarView(), isActive: $showTabBar, label: {EmptyView()} )
                 
                 HStack(alignment: .center, spacing: 0){
                 Image("Masar-1")
@@ -55,7 +59,7 @@ struct SigninView: View {
                     /* EMAIL FIELD*/
                     VStack{
                         HStack(spacing: 15)  {
-                            TextField("البريد الإلكتروني", text: $signinControllerObj.email)
+                            TextField("البريد الإلكتروني", text: $loginEmail)
                                 .disableAutocorrection(true)
                                 .autocapitalization(.none).multilineTextAlignment(TextAlignment.trailing)
 
@@ -71,7 +75,7 @@ struct SigninView: View {
                     .padding(.top,20)
                 
                     /*PASS FIELD*/
-                    SecureInputView("كلمة المرور", text: $signinControllerObj.password)
+                    SecureInputView("كلمة المرور", text: $loginPassword)
               
 /* COMPARE THE VALIDATIONS FROM POSTMAN*/
                     
@@ -128,16 +132,21 @@ struct SigninView: View {
 //                }
                 
                 Button(action: {
-                    signinControllerObj.signinController()
-                    if (signinControllerObj.isAuthenticated)
-                     {showTabBar = true}
-                    
-                    else {
+                    signinControllerObj.signinController(loginEmail: loginEmail, loginPassword: loginPassword, completion: { success in
                         
-                        print("show unauth msg")
-                    }
+                        if (success)
+                        {showTabBar = true}
+                        
+                        else {
+                            
+                            print("show unauth msg")
+                        }
+                        
+                        
+                    })
+                })
                     
-                }){
+                {
               
                     Text("دخول")
                     .foregroundColor(Color.white)
@@ -158,7 +167,7 @@ struct SigninView: View {
                     HStack(spacing: 6)  {
                         
                         Button(action: {
-                        //    self.showSignUp = true
+                    
                         })
                         {
                             Text("سجل الآن")
@@ -184,9 +193,11 @@ struct SigninView: View {
             .navigationBarHidden(true)
 
 
-      //  .padding(.top,10)
+   
         .background(Color(.white).edgesIgnoringSafeArea(.all))
         }
+      
+    }
 }
 
 
@@ -211,17 +222,12 @@ struct SecureInputView: View {
         HStack(spacing: 15)  {
             if isSecured {
                 SecureField(title, text: $text).multilineTextAlignment(TextAlignment.trailing)
-                   // .background(lightGreyColor)
-                   //.cornerRadius(5.0)
-                    //.padding(.bottom, 20)
+
             } else {
                 TextField(title, text: $text)
                     .disableAutocorrection(true)
                     .autocapitalization(.none).multilineTextAlignment(TextAlignment.trailing)
-//                    .padding()
-//                    .background(lightGreyColor)
-//                    .cornerRadius(5.0)
-                   
+
             }
             Button(action: {
                 isSecured.toggle()

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F579D7FA2884156300791D3B /* SigninVC-OLD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F579D7F82884156300791D3B /* SigninVC-OLD.swift */; };
+		F579D7FB2884156300791D3B /* SigninC-OLD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F579D7F92884156300791D3B /* SigninC-OLD.swift */; };
+		F579D7FF2884158A00791D3B /* swift_vapor_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F579D7FC2884158A00791D3B /* swift_vapor_clientApp.swift */; };
+		F579D8002884158A00791D3B /* MeM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F579D7FD2884158A00791D3B /* MeM.swift */; };
+		F579D8012884158A00791D3B /* SigninWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F579D7FE2884158A00791D3B /* SigninWrapper.swift */; };
+		F579D803288415C300791D3B /* DisplayUserV-OLD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F579D802288415C300791D3B /* DisplayUserV-OLD.swift */; };
 		F5C30B322881BA770004F93E /* Masar_AuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B312881BA770004F93E /* Masar_AuthApp.swift */; };
 		F5C30B342881BA770004F93E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B332881BA770004F93E /* ContentView.swift */; };
 		F5C30B362881BA790004F93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C30B352881BA790004F93E /* Assets.xcassets */; };
@@ -18,6 +24,9 @@
 		F5C30B612881BAB20004F93E /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B602881BAB20004F93E /* SigninView.swift */; };
 		F5C30B632881BAE80004F93E /* WebServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B622881BAE80004F93E /* WebServiceController.swift */; };
 		F5C30B652881BB030004F93E /* SignInOutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B642881BB030004F93E /* SignInOutController.swift */; };
+		F5C30B672883626C0004F93E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B662883626B0004F93E /* ProfileView.swift */; };
+		F5C30B69288363C30004F93E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C30B68288363C30004F93E /* TabBarView.swift */; };
+		F5C30B6B28836AEB0004F93E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C30B6A28836AEB0004F93E /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F579D7F82884156300791D3B /* SigninVC-OLD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SigninVC-OLD.swift"; sourceTree = "<group>"; };
+		F579D7F92884156300791D3B /* SigninC-OLD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SigninC-OLD.swift"; sourceTree = "<group>"; };
+		F579D7FC2884158A00791D3B /* swift_vapor_clientApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swift_vapor_clientApp.swift; sourceTree = "<group>"; };
+		F579D7FD2884158A00791D3B /* MeM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeM.swift; sourceTree = "<group>"; };
+		F579D7FE2884158A00791D3B /* SigninWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninWrapper.swift; sourceTree = "<group>"; };
+		F579D802288415C300791D3B /* DisplayUserV-OLD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DisplayUserV-OLD.swift"; sourceTree = "<group>"; };
 		F5C30B2E2881BA770004F93E /* Masar-Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masar-Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C30B312881BA770004F93E /* Masar_AuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masar_AuthApp.swift; sourceTree = "<group>"; };
 		F5C30B332881BA770004F93E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +67,9 @@
 		F5C30B602881BAB20004F93E /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		F5C30B622881BAE80004F93E /* WebServiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceController.swift; sourceTree = "<group>"; };
 		F5C30B642881BB030004F93E /* SignInOutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOutController.swift; sourceTree = "<group>"; };
+		F5C30B662883626B0004F93E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F5C30B68288363C30004F93E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F5C30B6A28836AEB0004F93E /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F579D7F72884154200791D3B /* BackUp */ = {
+			isa = PBXGroup;
+			children = (
+				F579D7F92884156300791D3B /* SigninC-OLD.swift */,
+				F579D802288415C300791D3B /* DisplayUserV-OLD.swift */,
+				F579D7F82884156300791D3B /* SigninVC-OLD.swift */,
+				F579D7FD2884158A00791D3B /* MeM.swift */,
+				F579D7FE2884158A00791D3B /* SigninWrapper.swift */,
+				F579D7FC2884158A00791D3B /* swift_vapor_clientApp.swift */,
+			);
+			name = BackUp;
+			sourceTree = "<group>";
+		};
 		F5C30B252881BA770004F93E = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +133,7 @@
 		F5C30B302881BA770004F93E /* Masar-Auth */ = {
 			isa = PBXGroup;
 			children = (
+				F579D7F72884154200791D3B /* BackUp */,
 				F5C30B5D2881BA8E0004F93E /* View */,
 				F5C30B5C2881BA850004F93E /* Controller */,
 				F5C30B5B2881BA800004F93E /* Model */,
@@ -159,6 +191,9 @@
 			children = (
 				F5C30B5E2881BAA30004F93E /* TestView.swift */,
 				F5C30B602881BAB20004F93E /* SigninView.swift */,
+				F5C30B662883626B0004F93E /* ProfileView.swift */,
+				F5C30B68288363C30004F93E /* TabBarView.swift */,
+				F5C30B6A28836AEB0004F93E /* Storyboard.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -269,6 +304,7 @@
 			files = (
 				F5C30B392881BA790004F93E /* Preview Assets.xcassets in Resources */,
 				F5C30B362881BA790004F93E /* Assets.xcassets in Resources */,
+				F5C30B6B28836AEB0004F93E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +329,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F579D803288415C300791D3B /* DisplayUserV-OLD.swift in Sources */,
 				F5C30B5F2881BAA30004F93E /* TestView.swift in Sources */,
 				F5C30B632881BAE80004F93E /* WebServiceController.swift in Sources */,
+				F5C30B69288363C30004F93E /* TabBarView.swift in Sources */,
 				F5C30B342881BA770004F93E /* ContentView.swift in Sources */,
 				F5C30B612881BAB20004F93E /* SigninView.swift in Sources */,
+				F579D7FB2884156300791D3B /* SigninC-OLD.swift in Sources */,
 				F5C30B652881BB030004F93E /* SignInOutController.swift in Sources */,
+				F579D8002884158A00791D3B /* MeM.swift in Sources */,
+				F579D7FF2884158A00791D3B /* swift_vapor_clientApp.swift in Sources */,
+				F579D7FA2884156300791D3B /* SigninVC-OLD.swift in Sources */,
+				F5C30B672883626C0004F93E /* ProfileView.swift in Sources */,
 				F5C30B322881BA770004F93E /* Masar_AuthApp.swift in Sources */,
+				F579D8012884158A00791D3B /* SigninWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

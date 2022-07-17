@@ -57,7 +57,7 @@ struct TestView: View {
             }
             
             
-      
+            .navigationBarBackButtonHidden(true)
             .navigationBarTitle("")
                 .navigationBarHidden(true)
         
